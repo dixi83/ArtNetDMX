@@ -35,3 +35,9 @@ The first boot has no saved Wi-Fi network, so it starts the setup AP immediately
 UART0 is configured for 250000 baud, 8 data bits, no parity, 2 stop bits. Each frame starts with a 100 µs break and 12 µs mark-after-break. Art-Net universe routing is not filtered: valid ArtDMX packets from the accepted sender update the configured DMX slot range.
 
 OTA uses the ESP8266 updater and the ESP-07's 1 MB flash layout. The current build is about 320 KB; ensure future images continue to fit alongside the running image in the available sketch area. DMX must be stopped before an OTA upload is accepted.
+
+## License
+
+This project is source-available under the [PolyForm Noncommercial License 1.0.0](LICENSE). You may use, modify, and redistribute it for noncommercial purposes, including personal and hobby projects. Commercial use is not permitted by this license; contact the copyright holder for separate commercial licensing.
+
+Because this license restricts commercial use, this project is not open source under the Open Source Definition. See the [OSI's Open Source Definition](https://opensource.org/osd).
